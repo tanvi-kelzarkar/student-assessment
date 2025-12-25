@@ -83,7 +83,7 @@ student_report = {
 
 Changing these values automatically updates the frontend UI.
 
-How to Run the Project
+## How to Run the Project
 
 Backend (Flask):
 cd backend

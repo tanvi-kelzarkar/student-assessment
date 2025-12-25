@@ -83,22 +83,49 @@ student_report = {
 
 Changing these values automatically updates the frontend UI.
 
+
 ## How to Run the Project
 
-Backend (Flask):
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install flask flask-cors
-python app.py
+**Backend (Flask)**
+
+Navigate to the backend folder:
+
+backend/app.py
+
+Create and activate a virtual environment:
+
+python -m venv venv  
+venv\Scripts\activate  
+
+Install required dependencies:
+
+pip install flask flask-cors  
+
+Run the Flask server:
+
+python app.py  
 
 Backend runs on:
+
 http://127.0.0.1:5000
 
-Frontend (React):
-cd frontend
-npm install
-npm start
+---
+
+**Frontend (React)**
+
+Navigate to the frontend folder:
+
+frontend/
+
+Install dependencies:
+
+npm install  
+
+Start the React development server:
+
+npm start  
 
 Frontend runs on:
+
 http://localhost:3000
+

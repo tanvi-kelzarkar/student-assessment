@@ -60,6 +60,7 @@ Feedback updates automatically when score values change.
 
 ---
 
+
 ## Where the Scores Are Stored
 
 Scores are stored in the backend file:
@@ -68,7 +69,6 @@ backend/app.py
 
 Inside an in-memory Python dictionary:
 
-```python
 student_report = {
   "studentName": "Demo Student",
   "overall": 7,
@@ -88,24 +88,14 @@ Changing these values automatically updates the frontend UI.
 
 **Backend (Flask)**
 
-Navigate to the backend folder:
-
-backend/app.py
-
-Create and activate a virtual environment:
+backend/
 
 python -m venv venv  
 venv\Scripts\activate  
 
-Install required dependencies:
-
 pip install flask flask-cors  
 
-Run the Flask server:
-
 python app.py  
-
-Backend runs on:
 
 http://127.0.0.1:5000
 
@@ -113,19 +103,11 @@ http://127.0.0.1:5000
 
 **Frontend (React)**
 
-Navigate to the frontend folder:
-
 frontend/
-
-Install dependencies:
 
 npm install  
 
-Start the React development server:
-
 npm start  
-
-Frontend runs on:
 
 http://localhost:3000
 
